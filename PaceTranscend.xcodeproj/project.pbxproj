@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10000000000000000000101 /* PaceTranscendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000020 /* PaceTranscendApp.swift */; };
+		E10000000000000000000102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000021 /* ContentView.swift */; };
+		E10000000000000000000103 /* RealmAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002A /* RealmAppearance.swift */; };
+		E10000000000000000000104 /* RealmSealIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002B /* RealmSealIconView.swift */; };
+		E10000000000000000000105 /* TribulationOutcomeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002C /* TribulationOutcomeOverlay.swift */; };
+		E10000000000000000000106 /* CultivationLocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002D /* CultivationLocalStore.swift */; };
+		E10000000000000000000107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000022 /* Assets.xcassets */; };
+		E10000000000000000000108 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000024 /* PrivacyInfo.xcprivacy */; };
+		E10000000000000000000109 /* PaceTranscendWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000025 /* PaceTranscendWatchApp.swift */; };
+		E1000000000000000000010A /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000026 /* WatchContentView.swift */; };
+		E1000000000000000000010B /* RealmAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002A /* RealmAppearance.swift */; };
+		E1000000000000000000010C /* RealmSealIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002B /* RealmSealIconView.swift */; };
+		E1000000000000000000010D /* TribulationOutcomeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002C /* TribulationOutcomeOverlay.swift */; };
+		E1000000000000000000010E /* CultivationLocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000002D /* CultivationLocalStore.swift */; };
+		E1000000000000000000010F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000027 /* Assets.xcassets */; };
+		E10000000000000000000110 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000029 /* PrivacyInfo.xcprivacy */; };
+		E10000000000000000000111 /* PaceTranscend Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E00000000000000000000031 /* PaceTranscend Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20000000000000000000201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F000000000000000F000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00000000000000000000003;
+			remoteInfo = "PaceTranscend Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E20000000000000000000202 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E10000000000000000000111 /* PaceTranscend Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E00000000000000000000001 /* PaceTranscend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaceTranscend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00000000000000000000031 /* PaceTranscend Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaceTranscend Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00000000000000000000020 /* PaceTranscendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceTranscendApp.swift; sourceTree = "<group>"; };
+		E00000000000000000000021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E00000000000000000000022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00000000000000000000023 /* PaceTranscend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaceTranscend.entitlements; sourceTree = "<group>"; };
+		E00000000000000000000024 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E00000000000000000000025 /* PaceTranscendWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceTranscendWatchApp.swift; sourceTree = "<group>"; };
+		E00000000000000000000026 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		E00000000000000000000027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00000000000000000000028 /* PaceTranscendWatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaceTranscendWatchApp.entitlements; sourceTree = "<group>"; };
+		E00000000000000000000029 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E0000000000000000000002A /* RealmAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAppearance.swift; sourceTree = "<group>"; };
+		E0000000000000000000002B /* RealmSealIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSealIconView.swift; sourceTree = "<group>"; };
+		E0000000000000000000002C /* TribulationOutcomeOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribulationOutcomeOverlay.swift; sourceTree = "<group>"; };
+		E0000000000000000000002D /* CultivationLocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivationLocalStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20000000000000000000210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20000000000000000000211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E30000000000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				E30000000000000000000302 /* PaceTranscend */,
+				E30000000000000000000303 /* PaceTranscend Watch App */,
+				E30000000000000000000304 /* Shared */,
+				E30000000000000000000305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E30000000000000000000302 /* PaceTranscend */ = {
+			isa = PBXGroup;
+			children = (
+				E00000000000000000000020 /* PaceTranscendApp.swift */,
+				E00000000000000000000021 /* ContentView.swift */,
+				E00000000000000000000022 /* Assets.xcassets */,
+				E00000000000000000000023 /* PaceTranscend.entitlements */,
+				E00000000000000000000024 /* PrivacyInfo.xcprivacy */,
+			);
+			path = PaceTranscend;
+			sourceTree = "<group>";
+		};
+		E30000000000000000000303 /* PaceTranscend Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E00000000000000000000025 /* PaceTranscendWatchApp.swift */,
+				E00000000000000000000026 /* WatchContentView.swift */,
+				E00000000000000000000027 /* Assets.xcassets */,
+				E00000000000000000000028 /* PaceTranscendWatchApp.entitlements */,
+				E00000000000000000000029 /* PrivacyInfo.xcprivacy */,
+			);
+			path = "PaceTranscend Watch App";
+			sourceTree = "<group>";
+		};
+		E30000000000000000000304 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E0000000000000000000002A /* RealmAppearance.swift */,
+				E0000000000000000000002B /* RealmSealIconView.swift */,
+				E0000000000000000000002C /* TribulationOutcomeOverlay.swift */,
+				E0000000000000000000002D /* CultivationLocalStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E30000000000000000000305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00000000000000000000001 /* PaceTranscend.app */,
+				E00000000000000000000031 /* PaceTranscend Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000002 /* PaceTranscend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40000000000000000000401 /* Build configuration list for PBXNativeTarget "PaceTranscend" */;
+			buildPhases = (
+				E20000000000000000000220 /* Sources */,
+				E20000000000000000000210 /* Frameworks */,
+				E20000000000000000000221 /* Resources */,
+				E20000000000000000000202 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20000000000000000000230 /* PBXTargetDependency */,
+			);
+			name = PaceTranscend;
+			productName = PaceTranscend;
+			productReference = E00000000000000000000001 /* PaceTranscend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00000000000000000000003 /* PaceTranscend Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40000000000000000000402 /* Build configuration list for PBXNativeTarget "PaceTranscend Watch App" */;
+			buildPhases = (
+				E20000000000000000000222 /* Sources */,
+				E20000000000000000000211 /* Frameworks */,
+				E20000000000000000000223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PaceTranscend Watch App";
+			productName = "PaceTranscend Watch App";
+			productReference = E00000000000000000000031 /* PaceTranscend Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F000000000000000F000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E00000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E00000000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E40000000000000000000403 /* Build configuration list for PBXProject "PaceTranscend" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E30000000000000000000301;
+			productRefGroup = E30000000000000000000305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000002 /* PaceTranscend */,
+				E00000000000000000000003 /* PaceTranscend Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20000000000000000000221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10000000000000000000107 /* Assets.xcassets in Resources */,
+				E10000000000000000000108 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20000000000000000000223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1000000000000000000010F /* Assets.xcassets in Resources */,
+				E10000000000000000000110 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20000000000000000000220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10000000000000000000101 /* PaceTranscendApp.swift in Sources */,
+				E10000000000000000000102 /* ContentView.swift in Sources */,
+				E10000000000000000000103 /* RealmAppearance.swift in Sources */,
+				E10000000000000000000104 /* RealmSealIconView.swift in Sources */,
+				E10000000000000000000105 /* TribulationOutcomeOverlay.swift in Sources */,
+				E10000000000000000000106 /* CultivationLocalStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20000000000000000000222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10000000000000000000109 /* PaceTranscendWatchApp.swift in Sources */,
+				E1000000000000000000010A /* WatchContentView.swift in Sources */,
+				E1000000000000000000010B /* RealmAppearance.swift in Sources */,
+				E1000000000000000000010C /* RealmSealIconView.swift in Sources */,
+				E1000000000000000000010D /* TribulationOutcomeOverlay.swift in Sources */,
+				E1000000000000000000010E /* CultivationLocalStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20000000000000000000230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00000000000000000000003 /* PaceTranscend Watch App */;
+			targetProxy = E20000000000000000000201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E50000000000000000000501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PaceTranscend/PaceTranscend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PaceTranscend;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacetranscend.PaceTranscend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E50000000000000000000502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PaceTranscend/PaceTranscend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PaceTranscend;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacetranscend.PaceTranscend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E50000000000000000000503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PaceTranscend Watch App/PaceTranscendWatchApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PaceTranscend;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pacetranscend.PaceTranscend;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacetranscend.PaceTranscend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E50000000000000000000504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PaceTranscend Watch App/PaceTranscendWatchApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PaceTranscend;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pacetranscend.PaceTranscend;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacetranscend.PaceTranscend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		E50000000000000000000505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E50000000000000000000506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40000000000000000000401 /* Build configuration list for PBXNativeTarget "PaceTranscend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50000000000000000000501 /* Debug */,
+				E50000000000000000000502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40000000000000000000402 /* Build configuration list for PBXNativeTarget "PaceTranscend Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50000000000000000000503 /* Debug */,
+				E50000000000000000000504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40000000000000000000403 /* Build configuration list for PBXProject "PaceTranscend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50000000000000000000505 /* Debug */,
+				E50000000000000000000506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F000000000000000F000001 /* Project object */;
+}

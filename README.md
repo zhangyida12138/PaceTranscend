@@ -23,19 +23,27 @@
 
 ---
 
+## 工程与运行（Xcode / Mac）
+
+1. 用 **Xcode 15+** 打开 `PaceTranscend.xcodeproj`。
+2. 在 **Signing & Capabilities** 为 *PaceTranscend* 与 *PaceTranscend Watch App* 选择同一 **Team**，并确认 **App Groups** 已启用且包含 `group.com.pacetranscend.PaceTranscend`（与源码中 `CultivationLocalStore.appGroupIdentifier` 一致；若你改名，请三处同步）。
+3. 运行 Scheme **PaceTranscend**（会先构建并嵌入 Watch App）。表端可单独在 Xcode 中选择 Watch 目标运行。
+4. 修为数据：写入 App Group 容器内 `Library/Application Support/cultivation_state.json`（**纯前端、无服务端**）；未开通 App Group 时回退到各端 `Documents`。
+
+## 仓库状态
+
+- 已包含 **iOS + watchOS** 可编译工程、共享 `Shared/` 模块、隐私清单与上架用占位说明。
+- 根目录 **[process.md](process.md)**：记录工程与上架相关进度，请在 Mac 侧完成构建/签名/提审步骤后**追加**更新。
+
+---
+
 ## 技术方向（规划）
 
 - **平台**：watchOS（主），SwiftUI；Complications（WidgetKit / 表盘复杂功能）。
 - **数据**：HealthKit（活动能量、步数、睡眠分期、静息心率、HRV、体能训练、`HKLiveWorkoutBuilder` 等，按实际上线范围裁剪）。
-- **存储**：以手表端本地状态为主；如需 iCloud 或 iPhone 同步，在隐私政策中单独说明。
+- **存储（当前实现）**：App Group 内 JSON；无后端。后续若增加 iCloud，需在隐私政策与 App Store 问卷中声明。
 
 具体 HealthKit 类型与模块拆分见 `pacetranscend` skill。
-
----
-
-## 仓库状态
-
-当前仓库以**设计与工程指引**为主；Xcode 工程与源码可在本目录下后续添加（例如 `PaceTranscend.xcodeproj` + watchOS target）。
 
 ---
 
